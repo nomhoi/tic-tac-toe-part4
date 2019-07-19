@@ -30,11 +30,11 @@
 
 {#if $status > 0}
     <button disabled>
-        Get a random number
+        Get random number
     </button>
 {:else}
     <button on:click={handleClick}>
-        Get a random number
+        Get random number
     </button>
 {/if}
 

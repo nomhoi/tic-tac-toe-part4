@@ -1,4 +1,4 @@
-version: '3.5'
+version: '3.6'
 services:
   nginx: 
     image: nginx:alpine
@@ -14,6 +14,7 @@ services:
       - backend
 
   flask:
+    container_name: flask
     build:
       context: flask/
       dockerfile: Dockerfile
