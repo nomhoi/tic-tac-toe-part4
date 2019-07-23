@@ -18,4 +18,4 @@ cd front
 npm install
 npm run-script build
 ```
-Navigate to http://localhost:5000/
+Navigate to http://localhost
